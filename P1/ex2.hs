@@ -4,6 +4,7 @@ import Drawing
 -- Define the main function to use later.
 main :: IO ()
 
+-- Start of ex. 2.
 -- Implement a function to draw lightbulbs.
 lightBulb c y = colored c (translated 0 y (solidCircle 1))
 
@@ -16,6 +17,5 @@ fill c = colored c (solidRectangle x y)
 -- Join all the elements.
 trafficLight = lightBulb red (2.5) <> lightBulb green (-2.5) <> lightBulb yellow 0 <> outline black <> fill gray
 
--- Start of ex. 2.
 main = svgOf trafficLight
 -- End of ex. 2.
