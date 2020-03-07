@@ -1,6 +1,5 @@
 *.svg
 *.tex
-*.pdf
 *.out
 *.toc
 *.aux
