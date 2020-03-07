@@ -1,0 +1,11 @@
+<umdoc>
+    <set name="packageVersion" value="git"/>
+    <document>
+        <tex>\title{\bfseries \Huge Disseny d'Aplicacions Telemàtiques\\ \Large Pràctica 1} \author{Aniol Martí i Espelt} \date{\today}\maketitle\thispagestyle{empty}</tex>
+        <pageBreak/>
+        <tex>\sloppy</tex>
+        <tableOfContents/>
+        <pageBreak/>
+        <md file="p1.md"/>
+    </document>
+</umdoc>
